@@ -1,11 +1,10 @@
-import java.sql.SQLOutput;
 import java.util.Locale;
 
 // Aula 23 saída de dados - https://www.udemy.com/course/java-curso-completo/learn/lecture/10565870#overview
 
 // Aula23
 
-public class Main {
+public class Aula23 {
 
     public static void main(String[] args) {
 
@@ -90,7 +89,7 @@ public class Main {
         String nome = "Maria";
         int idade = 31;
         double renda = 4000.0;
-        System.out.printf( "%s tem %d anos e ganha R$ %.2f reais %n", nome, idade, renda);
+        System.out.printf("%s tem %d anos e ganha R$ %.2f reais %n", nome, idade, renda);
 
         System.out.println();
         System.out.println("===============================");
@@ -135,19 +134,22 @@ public class Main {
         double measure = 53.234567;
 
         System.out.println(" Products: ");
-        System.out.printf("%s, which price is $ %.0f,%n",product1, price1);
-        System.out.printf("%s,which price is $ %.2f,%n", product2,price2);
+        System.out.printf("%s, which price is $ %.0f,%n", product1, price1);
+        System.out.printf("%s,which price is $ %.2f,%n", product2, price2);
         System.out.println();
-        System.out.printf("Record: %d years old, code %d and gender: %s ", age,code,gender);
+        System.out.printf("Record: %d years old, code %d and gender: %s ", age, code, gender);
         System.out.println();
         System.out.printf("Measue with eight decimal places: %.8f%n", measure);
         System.out.printf("US decimal point: %.3f%n", measure);
 
 
+        System.out.println();
+        System.out.println("===============================");
+        System.out.println();
 
 
+            }
 
 
+        }
 
-    }
-}
