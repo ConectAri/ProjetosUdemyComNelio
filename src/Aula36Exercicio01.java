@@ -9,7 +9,7 @@ Fazer um programa para ler um número inteiro, e depois dizer se este número é
 
 import java.util.Scanner;
 
-public class Aula36Exercicios {
+public class Aula36Exercicio01 {
 
     public static void main(String[] args) {
 
